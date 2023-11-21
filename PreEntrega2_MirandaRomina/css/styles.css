@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16 px;
+    font-style: normal;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007BFF;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.col-md-6 {
+    padding: 20px;
+}
+
+h2 {
+    color: blue;
+}
+
+ul {
+    list-style-type: lower-latin;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: darkslategray;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navegador {
+    background-color:sandybrown;
+    width: auto;
+    position: sticky;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex
+    }
+
+.navegador ul {
+    margin: 20px;
+    list-style-position: outside;
+    display: grid;
+    width: 100%;
+    height: 50px;
+    text-decoration: aliceblue;
+    }
+.portada {
+    width: 100%;
+    height: 300px;
+    background-image: url(../multimedia/img/Girasoles-Portada.jpg);
+    background-size: cover;
+    }
+.navegador ul li a {
+    color: azure;
+    }
+
+   
